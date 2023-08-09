@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 30.000001 30"
+   version="1.1"
+   sodipodi:docname="homepage-icon.svg"
+   width="30"
+   height="30"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="16.272972"
+     inkscape:cx="15.301446"
+     inkscape:cy="16.284672"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill-rule:evenodd;}</style>
+  </defs>
+  <title
+     id="title6">homepage</title>
+  <metadata
+     id="metadata828">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>homepage</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.429;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect1817"
+       width="30.11128"
+       height="29.988377"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       class="cls-1"
+       d="M 4.6205275,18.974253 14.451283,9.1386412 c 0.519582,-0.5195806 0.585136,-0.5414321 1.12414,0 l 9.804049,9.8356118 v 9.864748 h -7.28384 v -6.664714 a 0.820646,0.820646 0 0 0 -0.818218,-0.818218 h -4.549972 a 0.820646,0.820646 0 0 0 -0.818218,0.818218 v 6.664714 H 4.6253834 V 18.974253 Z M 14.691651,1.3740675 0.082695,15.091967 3.685768,16.983337 14.004542,6.5771574 c 0.883772,-0.8886285 0.893484,-0.9080521 1.769972,-0.038847 L 26.314232,16.978481 29.917305,15.087111 15.286497,1.3522159 C 15.024279,1.1094213 14.985432,1.077858 14.691651,1.3740675 Z"
+       id="path8"
+       style="fill:#0c7a59;fill-opacity:1;stroke:none;stroke-width:0.242795" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.429;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect1037"
+       width="123.35638"
+       height="114.43439"
+       x="25.751993"
+       y="-136.38971" />
+  </g>
+</svg>

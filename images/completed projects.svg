@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 30.000001 30.000001"
+   version="1.1"
+   sodipodi:docname="completed projects.svg"
+   width="30"
+   height="30"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="16.864994"
+     inkscape:cx="15.535138"
+     inkscape:cy="17.729031"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill-rule:evenodd;}</style>
+  </defs>
+  <title
+     id="title6">gear</title>
+  <metadata
+     id="metadata828">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>gear</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.429;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect1228"
+       width="29.825092"
+       height="29.825092"
+       x="0.087453842"
+       y="0.087453842" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       class="cls-1"
+       d="m 17.94118,3.867978 a 11.449592,11.449592 0 0 1 2.782395,1.260505 l 1.497461,-1.504789 a 1.8565585,1.8565585 0 0 1 2.618725,0 l 1.534103,1.541432 a 1.8565585,1.8565585 0 0 1 0,2.618724 L 24.76159,9.396125 a 11.383635,11.383635 0 0 1 1.060192,2.670024 h 2.325584 a 1.8565585,1.8565585 0 0 1 1.861444,1.856559 v 2.174127 a 1.8565585,1.8565585 0 0 1 -1.851672,1.851673 h -2.34757 a 11.43982,11.43982 0 0 1 -1.067521,2.64071 l 1.631817,1.639146 a 1.8565585,1.8565585 0 0 1 0,2.618725 l -1.53166,1.534103 a 1.8590013,1.8590013 0 0 1 -2.621168,0 l -1.548761,-1.551203 a 11.535091,11.535091 0 0 1 -2.733538,1.22142 v 2.0984 a 1.8565585,1.8565585 0 0 1 -1.851672,1.851672 H 13.91538 a 1.8565585,1.8565585 0 0 1 -1.851673,-1.851672 v -1.895644 a 11.576619,11.576619 0 0 1 -3.0169085,-1.14325 l -1.270277,1.270277 a 1.8614442,1.8614442 0 0 1 -2.618725,0 L 3.6163645,24.83976 a 1.8590013,1.8590013 0 0 1 0,-2.618724 l 1.153021,-1.153021 a 11.574177,11.574177 0 0 1 -1.358219,-3.119507 h -1.568304 a 1.8565585,1.8565585 0 0 1 -1.851672,-1.851673 v -2.174127 a 1.8565585,1.8565585 0 0 1 1.851672,-1.856559 h 1.551204 A 11.530205,11.530205 0 0 1 4.7400715,8.905114 L 3.6163645,7.78385 a 1.8614442,1.8614442 0 0 1 0,-2.618724 l 1.541432,-1.541432 a 1.8565585,1.8565585 0 0 1 2.618725,0 l 1.22142,1.22142 A 11.383635,11.383635 0 0 1 12.058821,3.662779 V 1.850192 a 1.8565585,1.8565585 0 0 1 1.856559,-1.851673 h 2.174127 A 1.8565585,1.8565585 0 0 1 17.94118,1.850192 Z M 14.614032,8.958857 A 6.0093867,6.0093867 0 1 1 8.6046445,14.9658 6.0069439,6.0069439 0 0 1 14.614032,8.958857 Z"
+       id="path8"
+       style="stroke-width:0.244284;fill:#0c7a59;fill-opacity:1" />
+  </g>
+</svg>

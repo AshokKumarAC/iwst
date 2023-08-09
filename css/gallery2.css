@@ -1,0 +1,244 @@
+.common-wrapper .container2.common-container.four_content ul{
+	list-style: none;
+}
+
+.common-wrapper .container2.common-container.four_content {
+	padding: 2px 27px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	background-color: #fe9b00;
+}
+
+.four_content .common-left ul li {
+	padding-top: 3px;
+	padding-right: 5px;
+}
+
+.common-wrapper .container2.common-container.four_content ul{
+	list-style: none;
+}
+
+.gallery-area a {
+	background: #ff9900;
+	border: 0 none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+	position: relative;
+	text-transform: uppercase;
+}
+.gallery-area a:hover, .video-heading a:hover {
+    background: #002047;
+}
+.gallery-area h3 {
+	background: #fed400;
+	color: #000;
+	float: left;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.gallery-area .gallery-heading {
+	opacity: 1
+}
+
+.gallery-area {
+	width: 69%;
+	float: left;
+	position: relative;
+}
+
+
+.gallery-heading {
+	float: left;
+	left: 1px;
+	position: absolute;
+	top: 1px;
+	z-index: 99999;
+	opacity: .6
+}
+
+.gallery-area .gallery-heading {
+	opacity: 1
+}
+
+.bttn-view {
+	position: absolute;
+	top: 0;
+	right: 5px
+}
+
+.gallery-holder ul.slides {
+	float: left;
+	width: 73.5%;
+	padding: 1px;
+}
+
+.slides {
+	padding-left: 0 !important;
+}
+
+.gallery-holder ol.flex-control-nav.flex-control-thumbs {
+	float: left;
+	margin: 0 0 0 1.5%;
+	padding: 0;
+	width: 23.2%
+}
+
+.gallery-holder .flex-direction-nav {
+	display: none
+}
+
+.gallery-holder .flex-control-thumbs li {
+	margin: 0 0 5.6%;
+	padding: 0;
+	width: 100%
+}
+
+.gallery-holder .slide-caption {
+	width: 100%;
+	display: block;
+	background: rgba(0, 0, 0, 0.8);
+	color: #FFF;
+	bottom: 0;
+	font-size: 1em;
+	padding: 10px;
+	max-width: inherit;
+}
+
+.gallery-holder .flex-control-thumbs li:last-child {
+	margin-bottom: 0
+}
+
+.gallery-holder .flex-control-thumbs li:last-child {
+	margin-bottom: 0
+}
+.flexslider .slides li a {
+	display: block;
+}
+
+.banner-wrapper .flex-direction-nav .flex-next,
+.banner-wrapper .flexslider:hover .flex-direction-nav .flex-next {
+	right: 0px;
+	top: 50%;
+}
+
+.banner-wrapper .flex-direction-nav .flex-prev,
+.banner-wrapper .flexslider:hover .flex-direction-nav .flex-prev {
+	left: 0px;
+	top: 50%;
+}
+
+.slides>li {
+	position: relative
+}
+
+.gallery-holder ul.slides {
+	float: left;
+	width: 73.5%;
+	padding: 1px;
+}
+
+.flexslider .slides li a {
+	display: block;
+}
+
+.carousel-wrapper #flexCarousel ul.slides li a:focus{
+	margin: 5px;
+}
+
+.gallery-right {
+width: 31%;
+float: right;
+height: auto;
+margin: 0px;
+position: relative;
+background: #0d0d0d;
+}
+
+.gallery-area a:hover, .video-heading a:hover {
+    background: #002047;
+}
+
+/* .video-heading {
+	float: left;
+	position: absolute;
+	top: 50px;
+	z-index: 99999;
+} */
+
+/* .video-heading h3 {
+	background: #fe9b00;
+	color: #000;
+	padding: 6px 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	float: left;
+} */
+
+.video-heading {
+	float: left;
+	position: absolute;
+	top: 0px;
+	z-index: 99999;
+}
+
+.video-heading h3 {
+	background: #fed400;
+	color: #000;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	float: left;
+}
+
+.video-heading a {
+	background: #ff9102;
+	border: 0 none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.video-wrapper {
+	position: relative;
+	height: auto;
+	overflow: hidden;	
+    min-height: 300px;
+}
+
+.video-wrapper>video {
+	width: 100%;
+	height: 100%;
+}
+.video-wrapper>video span {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	background: #d11515;
+	z-index: 22;
+	width: 100%;
+	padding: 20px 30px;
+	display: block;
+}
+
+.video-wrapper>video.has-media-controls-hidden::-webkit-media-controls {
+	display: none;
+}
+
+
+.wrapper.home-banner {
+   
+    /* padding: 70px 0px; */
+    background-position: top center;
+	height: auto	;
+}
+
+

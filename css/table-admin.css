@@ -1,0 +1,254 @@
+
+.cell1 p, .cell2 p, .cell3 p, .cell4 p, .cell5 p {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 0 !important;
+}
+  @media screen and (max-width: 580px) {
+    body {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  
+ 
+  
+  .table {
+    margin: 0 0 40px 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: table;
+    
+  }
+
+  @media screen and (max-width: 580px) {
+    .table {
+      display: block;
+    }
+  }
+  
+  .rowtable {
+    display: table-row;
+    background: #f6f6f6;
+  }
+  .rowtable:nth-of-type(odd) {
+    background: #e9e9e9;
+  }
+  .rowtable.header {
+    font-weight: 900;
+    color: #ffffff;
+    background: #ea6153;
+  }
+  .rowtable.green {
+    background: #c8b88a;
+  }
+  .rowtable.blue {
+    background: #2980b9;
+  }
+  @media screen and (max-width: 580px) {
+    .rowtable {
+      padding: 14px 0 7px;
+      display: block;
+    }
+    .rowtable.header {
+      padding: 0;
+      height: 6px;
+    }
+    .rowtable.header .cell1 {
+      display: none;
+    }
+
+    .rowtable.header .cell2 {
+        display: none;
+      }
+
+      .rowtable.header .cell3 {
+        display: none;
+      }
+
+      .rowtable.header .cell4 {
+        display: none;
+      }
+
+      .rowtable.header .cell5 {
+        display: none;
+      }
+
+      .rowtable.header .cell6 {
+        display: none;
+      }
+
+    .rowtable .cell1 {
+      margin-bottom: 10px;
+    }
+
+    .rowtable .cell2 {
+        margin-bottom: 10px;
+      }
+
+      .rowtable .cell3 {
+        margin-bottom: 10px;
+      }
+
+      .rowtable .cell4 {
+        margin-bottom: 10px;
+      }
+
+      .rowtable .cell5 {
+        margin-bottom: 10px;
+      }
+
+      .rowtable .cell6 {
+        margin-bottom: 10px;
+      }
+
+    .rowtable .cell1:before {
+      margin-bottom: 3px;
+      content: attr(data-title);
+      min-width: 98px;
+      font-size: 10px;
+      line-height: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #969696;
+      display: block;
+    }
+
+   
+
+    .rowtable .cell2:before {
+        margin-bottom: 3px;
+        content: attr(data-title);
+        min-width: 98px;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #969696;
+        display: block;
+      }
+
+      .rowtable .cell3:before {
+        margin-bottom: 3px;
+        content: attr(data-title);
+        min-width: 98px;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #969696;
+        display: block;
+      }
+
+      .rowtable .cell4:before {
+        margin-bottom: 3px;
+        content: attr(data-title);
+        min-width: 98px;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #969696;
+        display: block;
+      }
+
+      .rowtable .cell5:before {
+        margin-bottom: 3px;
+        content: attr(data-title);
+        min-width: 98px;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #969696;
+        display: block;
+      }
+
+      .rowtable .cell6:before {
+        margin-bottom: 3px;
+        content: attr(data-title);
+        min-width: 98px;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #969696;
+        display: block;
+      }
+  }
+  
+  .cell1 {
+    padding: 6px 12px;
+    display: table-cell;
+    width: 80px;
+    text-align: left;
+   
+  }
+
+  .cell2 {
+    padding: 6px 12px;
+    display: table-cell;
+    width: 300px;
+    text-align: left;
+  }
+
+  /* .cell2 p {
+    font-size: 0.9rem !important ;
+    font-weight: 300;
+    font-family: "Open-Sans", sans-serif;
+  } */
+
+  .cell8 {
+    padding: 6px 12px;
+    display: table-cell;
+    width: 500px;
+    text-align: left;
+  }
+
+  .cell3 {
+    padding: 6px 12px;
+    display: table-cell;
+    width: 300px;
+    align-items: left;
+    text-align: left;
+   
+  }
+
+  .cell4 {
+    padding: 6px 12px;
+    display: table-cell;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cell5 {
+    padding: 6px 12px;
+    display: table-cell;
+    width: 100px;
+    text-align: center;
+   
+  }
+
+  .cell6 {
+    padding: 6px 12px;
+    display: table-cell;
+    width: 100px;
+    text-align: center;
+  }
+
+  .cell7 {
+    padding: 6px 12px;
+    display: table-cell;
+    width: 150px;
+    text-align: center;
+   
+  }
+  @media screen and (max-width: 580px) {
+    .cell1, .cell2, .cell3, .cell4, .cell5, .cell6, .cell7 {
+      padding: 2px 16px;
+      display: block;
+      text-align: left;
+      width: 350px;
+    }
+  }

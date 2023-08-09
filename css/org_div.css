@@ -1,0 +1,501 @@
+/* RESET STYLES & HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --level-1: #8dccad;
+  --level-2: #f5cc7f;
+  --level-3: #7b9fe0;
+  --level-4: #f27c8d;
+  --black: black;
+  --white: #ffffff;
+}
+
+/* .container {
+  max-width: 1180px;
+  padding: 50px 10px;
+  margin: 0 auto;
+  
+} */
+
+.rectangle {
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* LEVEL-1 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-1b {
+  width: 50%;
+  margin: 0 auto 40px;
+  background-image: linear-gradient(90deg, #f8f5f2, #f8f5f2);
+  border: 1px solid #e2e2e2;
+  color: #06cc9b;
+  font-size: 1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #06cc9b;
+  
+
+}
+
+.level-1b::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background: var(--white);
+}
+
+.level-1a {
+  width: 75%;
+  margin: 10px 90px;
+  background: var(--level-1);
+  background-image: linear-gradient(90deg, #f8f5f2, #f8f5f2);
+  border: 1px solid #e2e2e2;
+  color: #06cc9b;
+  font-size: 1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.level-1a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 40px;
+  background: var(--black);
+}
+
+
+/* LEVEL-2 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-2c-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.level-2c-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 25%;
+  width: 52%;
+  height: 2px;
+  background: var(--black);
+}
+
+.level-2c-wrapper::after {
+  display: none;
+  content: "";
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  width: calc(100% + 20px);
+  height: 2px;
+  background: var(--black);
+}
+
+.level-2c-wrapper li {
+  position: relative;
+}
+
+.level-2c-wrapper > li::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background: var(--black);
+}
+
+.level-2c {
+  width: 70%;
+  margin: 0 auto 40px;
+  background: var(--level-2);
+}
+
+.level-2c::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background: var(--black);
+}
+
+.level-2c::after {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-100%, -50%);
+  width: 20px;
+  height: 2px;
+  background: var(--black);
+}
+
+
+/* LEVEL-3 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.level-3-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.level-3-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 8%;
+  width:85%;
+  height: 2px;
+  background: rgb(255, 255, 255);
+ 
+}
+
+.level-3-wrapper::after {
+  display: none;
+  content: "";
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  width: calc(100% + 5px);
+  height: 2px;
+  background: rgb(13, 158, 8);
+}
+
+.level-3-wrapper li {
+  position: relative;
+}
+
+.level-3-wrapper > li::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 46%;
+  transform: translateX(-50%, -100);
+  width: 2px;
+  height: 20px;
+  background: rgb(255, 255, 255);
+}
+
+.level-3 {
+  width: 90%;
+  margin: 0 auto 40px;
+  background: #fff;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  height: 80px;
+  text-align: center;
+  background-image: linear-gradient(60deg, #fff, #fff);
+}
+
+.level-3-wrapper li h2 {
+  padding-left: 5px !important;
+}
+
+
+
+.level-3::after {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-100%, -50%);
+  width: 20px;
+  height: 2px;
+  background: #fff;
+}
+
+
+.level-3-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 51%;
+  transform: translateX(-50%);
+  width: 85%;
+  height: 2px;
+  background: rgb(255, 255, 255);
+}
+
+
+
+.level-3::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(5%);
+  width: 20px;
+  height: 50px;
+  background: rgb(255, 0, 0);
+  color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .level-3-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.level-3-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: calc(10% - 5px);
+  width: calc(85% + 10px);
+  height: 2px;
+  background: var(--white);
+}
+
+.level-3-wrapper > li::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 43%;
+  transform: translate(-50%, -100%);
+  width: 2px;
+  height: 20px;
+  background: var(--white);
+}
+
+.level-3 {
+  margin-bottom: 20px;
+  background: var(--level-3);
+  font-size: 0.8rem;
+  text-align: center;
+  height: 80px;
+} 
+
+
+/* LEVEL-4 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-4b-wrapper {
+  position: relative;
+  width: 80%;
+  margin-left: 60px;
+}
+
+.level-4b-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 12px;
+  width: 2px;
+  height: calc(100% + 20px);
+  background: var(--black);
+}
+
+.level-4b-wrapper li + li {
+  margin-top: 20px;
+}
+
+.level-4b {
+  font-weight: normal;
+  background: var(--level-4);
+  background-image: linear-gradient(60deg, #fff, #fff);
+  border: 1px solid #f3f3f3;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-align: center; 
+  text-transform: uppercase;
+}
+
+.level-4b::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-100%, -50%);
+  width: 20px;
+  height: 2px;
+  background: var(--black);
+}
+
+.level-4a-wrapper {
+  position: relative;
+  width: 80%;
+  margin-left: 60px;
+}
+
+.level-4a-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  width: 2px;
+  height: calc(100% + 20px);
+  background: var(--black);
+}
+
+.level-4a-wrapper li + li {
+  margin-top: 20px;
+}
+
+.level-4a {
+  font-weight: normal;
+  background: var(--level-4);
+  background-image: linear-gradient(90deg, #fff, #fff);
+  border: 1px solid #f3f3f3;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  
+  
+}
+
+.level-4a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-100%, -50%);
+  width: 20px;
+  height: 2px;
+  background: var(--black);
+}
+
+/* .container_branch {
+  max-width: 1180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "container_1 container_2";
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  
+}
+
+.container_1 {
+  grid-area: container_1;
+  
+}
+
+.container_2 {
+  grid-area: container_2;
+  
+} */
+
+
+/* MQ STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 700px) {
+  .rectangle {
+    padding: 10px 10px;
+    width: 100%;
+  }
+
+  .level-1a,
+  .level-2c {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+/*
+  .level-1b {
+    margin-bottom: 20px;
+  }
+*/
+  .level-1a::before,
+  .level-2c-wrapper > li::before {
+    display: none;
+  }
+
+  .level-1a::before {
+    height: 40px;
+  }
+  
+  
+  .level-2c-wrapper,
+  .level-2c-wrapper::after,
+  .level-2c::after {
+    display: block;
+  }
+
+  .level-2-wrapper {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  /*
+  .level-2-wrapper::before {
+    left: -20px;
+    width: 2px;
+    height: calc(100% + 40px);
+  }
+
+  .level-2-wrapper > li:not(:first-child) {
+    margin-top: 50px;
+  }
+*/
+  .container_branch {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "container_1"
+    "container_2";   
+  }
+
+  .level-4a, .level-4b {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+
+  .level-2c-wrapper::after, .level-2c-wrapper::before {
+    display: none;
+  }
+
+  .level-1b::before {
+    height: 40px;
+  }
+
+
+
+}
+

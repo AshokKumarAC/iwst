@@ -1,0 +1,220 @@
+.nav-tabs {
+    display: none;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #ffc700;
+    background-color: #ffc700;
+    /* max-width: 1120px; */
+}
+
+.nav-tabs a {
+    padding: 5px 9px !important;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ffc700;
+    border-right: 1px solid #cca106 !important;
+    display: inline-block;
+    height: 50px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #3c2f26;
+    font-size: 14px;
+}
+
+/* .borderfortab {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}  */
+
+/* .borderfortab {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+} */
+
+/* .nav-tabs {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+} */
+
+/* .qlinksphd {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.tabslist {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+} */
+
+
+.tabslist ul {
+    padding-left: 0 !important;
+}
+
+.nav-tabs li:last-child a, .nav-tabs li:last-child div {
+    border-right: none !important;
+
+}
+
+.nav-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .nav-item a.active {
+    background-color: antiquewhites;
+} */
+
+ /*code to change background color*/
+ .nav-tabs>.active>a {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    border-color: none;
+}
+
+.nav-link.active {
+    border: none;
+}
+
+
+
+/* .nav-tabs.is-active nav-item {
+    color: #ff0000;
+    background-color:#ffffff
+}
+
+.c-tabs-nav__link.is-active{
+    color:#0c7a59;
+    background-color:#ffffff
+}
+
+.tabs {
+    vertical-align: middle;
+} */
+
+
+.nav-tabs a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#tab-content {
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    min-height: 300px;
+    /* width: 1120px; */
+}
+
+/* .nav-tabs li a {
+    height: 70px;
+    display: block;
+    padding-left: 21px;
+    padding-right: 21px;
+    background: #eee;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.nav-tabs li a:hover,
+.nav-tabs .is-active li a {
+  border-bottom-color: transparent;
+  background: rgb(255, 0, 0);
+}
+
+.tab-content {
+    padding: .5em 2em 1em;
+    border: 1px solid #ddd;
+  }
+
+.nav-tabs {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-tabs li {
+    display: table-cell;
+    
+  } */
+
+
+
+
+
+
+
+
+
+/* .nav-tabs>li {
+height:62px;
+}
+.nav-tabs>li>a, .nav-tabs>li>a>div {
+height:100%;
+display:table;
+}
+.nav-tabs>li>a span {
+display:table-cell;
+vertical-align:middle;
+} */
+
+@media (max-width: 768px) {
+    .nav-tabs {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-tabs {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        border: none;
+    }
+
+    .card .card-header {
+        display: none;
+    }
+
+    .card .collapse {
+        display: block;
+    }
+}
+
+.tab-content > .tab-pane {
+    opacity: 1;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .tab-content > .tab-pane {
+        display: none;
+    }
+}
+
+.tab-content > .tab-pane.active {
+    display: block;
+}

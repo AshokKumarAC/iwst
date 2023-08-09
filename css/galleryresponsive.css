@@ -1,0 +1,279 @@
+@media all and (max-width: 1100px) {
+.gallery-area {
+		width: 71%;
+}
+
+.gallery-right {
+	width: 28.5%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+
+	.video-heading a {
+		padding: 5px 10px;
+	}
+	.video-heading h3 {
+		padding: 5px 15px;
+	}
+
+	.video-wrapper {
+		min-height: 200px;
+	}
+}
+
+
+@media screen and (max-width: 960px) {
+
+
+
+	.gallery-holder ul.slides {
+		float: left;
+		padding: 1px;
+		width: 75%;
+	}
+
+	.slides {
+		width: 40%;
+	}
+
+	.gallery-right {
+		width: 25%;
+	}
+}
+
+@media (min-width:768px) and (max-width:960px) {
+.gallery-area {
+		width: 100%;
+	}
+}
+
+@media(max-width: 1023px) and (min-width: 768px) {
+.gallery-area {
+		float: left;
+		position: relative;
+		width: 66%;
+	}
+
+	.gallery-holder {
+		width: 100%;
+	}
+
+	.gallery-right {
+		width: 30%;
+	}
+
+	.gallery-heading h3 {
+		font-size: 1rem;
+	}
+
+	.video-heading h3 {
+		font-size: 1rem;
+	}
+
+	.gallery-area a {
+		padding: 5px 4px;
+
+	}
+
+	.video-heading a {
+		padding: 3px 4px;
+		font-size: 1rem;
+
+	}
+
+	.video-wrapper {
+		height: 245px;
+	}
+	
+	.gallery-holder ol.flex-control-nav.flex-control-thumbs {
+		float: left;
+		margin: 0 0 0 1.5%;
+		padding: 0;
+		width: 23.5%
+	}
+
+}
+
+
+@media screen and (max-width: 800px) {
+	.video-wrapper {
+		height: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+.gallery-area h3 {
+		padding: 5px 15px;
+	}
+
+.gallery-holder .slide-caption {
+		padding: 0px;
+	}
+
+.carousel-wrapper .flexslider {
+		padding: 0px 20px;
+	}
+	
+	
+@media only screen 
+and (max-device-width: 768px) {
+
+  .gallery-area a {
+	  background: #ff9900;
+	  border: 0 none;
+	  color: #fff;
+	  display: inline-block;
+	  padding: 7px 15px;
+	  position: relative;
+	  text-transform: uppercase;
+  }
+
+
+  .video-heading a {
+	  background: #ff9102;
+	  border: 0 none;
+	  color: #fff;
+	  display: inline-block;
+	  padding: 7px 15px;
+	  position: relative;
+	  text-transform: uppercase;
+  }
+
+  .video-heading h3 {
+	  background: #fed400;
+	  color: #000;
+	  padding: 5px 20px;
+	  text-transform: uppercase;
+	  font-weight: 700;
+	  float: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px){
+	.gallery-area {
+		float: none;
+		position: relative;
+		width: 100%;
+	}
+
+	.gallery-heading {
+		float: left;
+		left: 1px;
+		position: absolute;
+		top: 1px;
+		z-index: 99999;
+	}
+
+	.gallery-holder .flex-control-thumbs li {
+		margin: 4px 8px 0 0;
+		padding: 0;
+		width: 31%;
+		
+	}
+
+	.gallery-holder ol.flex-control-nav.flex-control-thumbs {
+		float: left;
+		margin: 0 0 0 0;
+		padding: 0;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.gallery-holder ul.slides {
+		float: left;
+		padding: 1px;
+		width: 100%;
+	}
+
+	.gallery-holder .flex-control-thumbs li:last-child {
+		margin: 4px 0 0;
+	}
+
+	.banner-wrapper .flex-direction-nav .flex-next,
+	.banner-wrapper .flexslider:hover .flex-direction-nav .flex-next {
+		display: none;
+	}
+	.banner-wrapper .flex-direction-nav .flex-prev,
+	.banner-wrapper .flexslider:hover .flex-direction-nav .flex-prev {
+		display: none;
+	}
+
+	.gallery-right {
+		width: 100%;
+		margin: 15px auto;
+	}
+
+	.gallery-right .video-wrapper {
+		width: 100%;
+	}
+
+	.video-heading {
+		left: 0;
+	}
+}
+
+
+@media all and (max-width: 767px) and (min-width:501px) {
+
+	.banner-wrapper .flex-direction-nav .flex-next,
+	.banner-wrapper .flexslider:hover .flex-direction-nav .flex-next {
+		display: none;
+	}
+	.banner-wrapper .flex-direction-nav .flex-prev,
+	.banner-wrapper .flexslider:hover .flex-direction-nav .flex-prev {
+		display: none;
+	}
+
+.carousel-wrapper .flexslider {
+		padding: 0px 20px;
+	}
+}
+
+@media all and (max-width: 500px) {
+
+	.banner-wrapper .flex-direction-nav .flex-next,
+	.banner-wrapper .flexslider:hover .flex-direction-nav .flex-next {
+		display: none;
+	}
+	.banner-wrapper .flex-direction-nav .flex-prev,
+	.banner-wrapper .flexslider:hover .flex-direction-nav .flex-prev {
+		display: none;
+	}
+}
+
+
+@media all and (max-width: 400px) {
+.banner-wrapper .flex-direction-nav .flex-next,
+	.banner-wrapper .flexslider:hover .flex-direction-nav .flex-next {
+		display: none;
+	}
+	.banner-wrapper .flex-direction-nav .flex-prev,
+	.banner-wrapper .flexslider:hover .flex-direction-nav .flex-prev {
+		display: none;
+	}
+
+	.gallery-right {
+		width: 100%;
+		margin: 15px auto;
+	}
+}
+
